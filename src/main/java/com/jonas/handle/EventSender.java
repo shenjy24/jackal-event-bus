@@ -19,10 +19,12 @@ public class EventSender {
 
     public void send(Integer time) {
         MyMsg msg = new MyMsg(1L, "Tom", time);
+
         LocalEvent.builder(publisher)
                 .setTopic("myEvent")
                 .setContent(msg)
                 .publish();
+
     }
 
 }

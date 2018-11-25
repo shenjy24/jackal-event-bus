@@ -15,7 +15,7 @@ import java.util.concurrent.ThreadPoolExecutor;
  */
 @EnableAsync
 @Configuration
-public class AsyncConfig {
+public class LocalEventConfig {
 
 
     /**
